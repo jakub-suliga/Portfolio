@@ -1,21 +1,9 @@
 # Setup
 title:               'Test'
-tagline:             ''
-description:         ''
 url:                 'https://jakub-suliga.github.io/'
-baseurl:             ''
-paginate:            5
-permalink:           pretty
 
 # About/contact
 author:
   name:              Jakub SUliga
   url:               
   email:             
-
-# Gems
-markdown: kramdown
-plugins:
-  - jekyll-paginate
-include:
-  - "public/_streamlit"
