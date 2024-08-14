@@ -1,0 +1,37 @@
+# Site settings
+title: "Meine GitHub Pages Seite"
+description: "Dies ist eine einfache Webseite, die auf GitHub Pages gehostet wird."
+url: "https://jakub-suliga.github.io"  # Deine GitHub Pages URL
+baseurl: "" # Stelle sicher, dass dies leer bleibt, wenn du keine zusätzliche Basis-URL verwendest
+
+# Author information
+author:
+  name: "Jakub Suliga"
+  email: "dein.email@example.com"  # Optional, füge deine E-Mail hinzu oder lasse es leer
+  url: "https://github.com/jakub-suliga"  # Dein GitHub-Profil oder persönliche Webseite
+
+# Jekyll settings
+markdown: kramdown
+theme: minima  # Standard-Jekyll-Theme, du kannst es ändern oder eigene Themes verwenden
+plugins:
+  - jekyll-feed  # Fügt einen RSS-Feed zu deiner Seite hinzu
+  - jekyll-seo-tag  # Fügt SEO-Tags zu deiner Seite hinzu
+
+# Build settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Permalinks
+permalink: pretty  # Macht URLs schöner, z.B. ohne ".html"
+
+# GitHub Pages settings
+github:
+  is_project_page: false  # Setze dies auf true, wenn es sich um eine Projektseite und nicht um eine Benutzer-/Organisationsseite handelt
+
